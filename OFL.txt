@@ -1,5 +1,5 @@
 Copyright 2026 The Coddy Round Project Authors (https://github.com/coddytech/coddy-round)
-Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with ReservedFont Name "Audiowide" (Audiowide, the design Coddy Round is rounded from)
+Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name "Audiowide" (Audiowide, the design Coddy Round is rounded from)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

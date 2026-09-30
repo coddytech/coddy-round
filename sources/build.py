@@ -496,6 +496,10 @@ def write_license():
     Arabic companion faces, which only coddy.tech serves."""
     def notice(fname, use):
         text = TTFont(os.path.join(UPSTREAM, fname))['name'].getDebugName(0)
+        # Audiowide's own notice has a stray carriage return inside "Reserved
+        # Font Name"; it split the line, and GitHub's license detection then
+        # read half a copyright notice as license text and gave up on OFL.
+        text = ' '.join(text.split())
         return f'{text} ({use})'
 
     body = open(os.path.join(HERE, 'ofl-body.txt')).read()
