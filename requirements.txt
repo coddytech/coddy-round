@@ -1,0 +1,4 @@
+fonttools[woff]==4.61.1
+brotli==1.2.0
+shapely==2.0.6
+numpy==2.1.3
