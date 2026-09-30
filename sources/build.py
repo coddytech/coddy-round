@@ -413,6 +413,9 @@ def name_font(font, weight, label=None, based_on=None):
 
 
 def to_bytes(font, flavor=None):
+    # Never stamp the build time into head.modified: an unchanged font must
+    # give the same bytes (the web files are named by their hash).
+    font.recalcTimestamp = False
     font.flavor = flavor
     buf = io.BytesIO()
     font.save(buf)
